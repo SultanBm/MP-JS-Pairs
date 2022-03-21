@@ -38,20 +38,23 @@ Array.prototype.getRandom = function () {
 
 function pairs(names) {
   // Your code goes here
-  while (names.length !== 0) {
-    if (names.length % 2 === 1) {
-      names.push([names.getRandom(), names.getRandom()]);
-    } else {
-      names.push([names.getRandom(), names.getRandom()]);
-    }
+  if (names == undefined) {
+    names = [];
     return names;
   }
-
   if (names.length === 0) {
-    return [];
-  } else if (null) {
-    return [];
+    return names;
   }
+  const result = [];
+  while (names.length > 1) {
+    const firstname = names.getRandom();
+    const secondname = names.getRandom();
+    const pair = [firstname, secondname];
+    result.push(pair);
+    console.log(result);
+  }
+  if (names.length === 1) result.push(names);
+  return result;
 }
 
 module.exports = pairs;
