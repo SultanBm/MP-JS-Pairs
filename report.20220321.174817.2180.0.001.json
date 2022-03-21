@@ -1,0 +1,478 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20220321.174817.2180.0.001.json",
+    "dumpEventTime": "2022-03-21T17:48:17Z",
+    "dumpEventTimeStamp": "1647874097659",
+    "processId": 2180,
+    "threadId": null,
+    "cwd": "C:\\Users\\sulta\\Desktop\\Development\\MP-JS-Pairs",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      ".\\pairs.js"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19044",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 2533609,
+        "nice": 0,
+        "sys": 4166578,
+        "idle": 63769218,
+        "irq": 1201828
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 1958546,
+        "nice": 0,
+        "sys": 2270000,
+        "idle": 66240765,
+        "irq": 136203
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 3146812,
+        "nice": 0,
+        "sys": 2639265,
+        "idle": 64683250,
+        "irq": 54906
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 1840953,
+        "nice": 0,
+        "sys": 1579906,
+        "idle": 67048468,
+        "irq": 15843
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 1889640,
+        "nice": 0,
+        "sys": 1659218,
+        "idle": 66920468,
+        "irq": 19593
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 1292218,
+        "nice": 0,
+        "sys": 1137203,
+        "idle": 68039906,
+        "irq": 11921
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 975734,
+        "nice": 0,
+        "sys": 896984,
+        "idle": 68596609,
+        "irq": 11171
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 890140,
+        "nice": 0,
+        "sys": 801640,
+        "idle": 68777546,
+        "irq": 5062
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 663015,
+        "nice": 0,
+        "sys": 446500,
+        "idle": 69359796,
+        "irq": 7734
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 296234,
+        "nice": 0,
+        "sys": 221125,
+        "idle": 69951937,
+        "irq": 3796
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 1312703,
+        "nice": 0,
+        "sys": 670281,
+        "idle": 68486328,
+        "irq": 10078
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 263843,
+        "nice": 0,
+        "sys": 219609,
+        "idle": 69985828,
+        "irq": 1734
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 571812,
+        "nice": 0,
+        "sys": 431953,
+        "idle": 69465531,
+        "irq": 8656
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 214296,
+        "nice": 0,
+        "sys": 327093,
+        "idle": 69927890,
+        "irq": 3140
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 393703,
+        "nice": 0,
+        "sys": 331375,
+        "idle": 69744218,
+        "irq": 7875
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "speed": 2895,
+        "user": 547437,
+        "nice": 0,
+        "sys": 820421,
+        "idle": 69101437,
+        "irq": 457531
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "‏‏شبكة Wi-Fi",
+        "internal": false,
+        "mac": "20:1e:88:d8:c2:f5",
+        "address": "fe80::4527:4d7a:5e1c:806a",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      },
+      {
+        "name": "‏‏شبكة Wi-Fi",
+        "internal": false,
+        "mac": "20:1e:88:d8:c2:f5",
+        "address": "192.168.100.219",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-P6IJM8E2"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6b4ef2449",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11577"
+    },
+    {
+      "pc": "0x00007ff6b4ef69a9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29337"
+    },
+    {
+      "pc": "0x00007ff6b4ef5828",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24856"
+    },
+    {
+      "pc": "0x00007ff6b502d8c2",
+      "symbol": "v8::base::CPU::has_sse+68658"
+    },
+    {
+      "pc": "0x00007ff6b5849bbe",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6b5831c91",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff6b56fe1ec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff6b5709420",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff6b5705f44",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff6b56fb743",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff6b56f9db4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff6b571afbd",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff6b54816ff",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1295"
+    },
+    {
+      "pc": "0x00007ff6b5c96c4d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x000000d7d4ac4e84",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2127589376,
+    "totalCommittedMemory": 2127589376,
+    "usedMemory": 2122626512,
+    "availableMemory": 72320832,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      },
+      "old_space": {
+        "memorySize": 1801596928,
+        "committedMemory": 1801596928,
+        "capacity": 1799377000,
+        "used": 1799377000,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 430080,
+        "capacity": 158304,
+        "used": 158304,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 172160,
+        "used": 172160,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 322887680,
+        "committedMemory": 322887680,
+        "capacity": 322883456,
+        "used": 322883456,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 23.25,
+    "kernelCpuSeconds": 1.656,
+    "cpuConsumptionPercent": 249.06,
+    "maxRss": 2551500800,
+    "pageFaults": {
+      "IORequired": 924637,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\sulta\\AppData\\Roaming",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_16696_KWHOFVUBSNQDHZOE",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-P6IJM8E2",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\sulta",
+    "LOCALAPPDATA": "C:\\Users\\sulta\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-P6IJM8E2",
+    "NUMBER_OF_PROCESSORS": "16",
+    "OneDrive": "C:\\Users\\sulta\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\sulta\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\sulta\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\sulta\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\sulta\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "6001",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Users\\sulta\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\sulta\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\sulta\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-P6IJM8E2",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-P6IJM8E2",
+    "USERNAME": "sulta",
+    "USERPROFILE": "C:\\Users\\sulta",
+    "windir": "C:\\Windows",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.65.2",
+    "LANG": "ar.UTF-8",
+    "COLORTERM": "truecolor",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-e1d9877199-sock",
+    "GIT_ASKPASS": "c:\\Users\\sulta\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\sulta\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\sulta\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}
